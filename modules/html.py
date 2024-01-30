@@ -76,6 +76,10 @@ progress::after {
   height: 40px !important;
 }
 
+.type_row_half{
+  height: 32px !important;
+}
+
 .scroll-hide{
   resize: none !important;
 }
@@ -93,6 +97,23 @@ progress::after {
 
 .min_check{
   min-width: min(1px, 100%) !important;
+}
+
+.resizable_area {
+  resize: vertical;
+  overflow: auto !important;
+}
+
+.aspect_ratios label {
+    width: 140px !important;
+}
+
+.aspect_ratios label span {
+    white-space: nowrap !important;
+}
+
+.aspect_ratios label input {
+    margin-left: -5px !important;
 }
 
 '''
